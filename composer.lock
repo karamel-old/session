@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c208e6f3f5d942008caa48443cfd0465",
+    "packages": [
+        {
+            "name": "karamel/file",
+            "version": "v0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/karamel-pack/File.git",
+                "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/karamel-pack/File/zipball/518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
+                "reference": "518b42eefa9fc780d5a7fa9ad0f76936962f06c2",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Karamel\\File\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Amir Kalantar",
+                    "email": "amir.kalantar@gmail.com"
+                }
+            ],
+            "description": "file package for view",
+            "time": "2018-09-25T14:06:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

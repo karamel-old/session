@@ -1,0 +1,21 @@
+{
+  "name": "karamel/session",
+  "description": "karamel session",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Amir Kalantar",
+      "email": "amir.kalantar@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Karamel\\Session\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "karamel/file": "v0.1.9"
+  }
+}
