@@ -17,21 +17,6 @@ class Session
     private static $filename;
 
     /**
-     * @return \Karamel\Session\Session
-     * @throws \Exception
-     */
-    public static function getInstance()
-    {
-        if (self::$filename == null)
-            throw new \Exception("Session filename must be set");
-
-        if (self::$instance == null)
-            self::$instance = new \Karamel\Session\Session(self::$filename);
-
-        return self::$instance;
-    }
-
-    /**
      * @param $filename
      */
     public static function setFileName($filename)
@@ -49,6 +34,20 @@ class Session
         self::getInstance()->set($key, $value);
     }
 
+    /**
+     * @return \Karamel\Session\Session
+     * @throws \Exception
+     */
+    public static function getInstance()
+    {
+        if (self::$filename == null)
+            throw new \Exception("Session filename must be set");
+
+        if (self::$instance == null)
+            self::$instance = new \Karamel\Session\Session(self::$filename);
+
+        return self::$instance;
+    }
 
     /**
      * @param $key
